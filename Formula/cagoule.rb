@@ -2,27 +2,27 @@
 class Cagoule < Formula
   desc "Discover, deploy and run open-weight models on Cagoule"
   homepage "https://github.com/anorak-games/homebrew-cagoule"
-  version "0.1.4"
+  version "0.1.5"
 
   on_macos do
     on_arm do
-      url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.4/cagoule_0.1.4_darwin_arm64.tar.gz"
-      sha256 "a1a9265e4e94f0bd8b1de99f93f6d9790d158b67aba7931568f680b766d9b126"
+      url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.5/cagoule_0.1.5_darwin_arm64.tar.gz"
+      sha256 "97b5b3ab55e942914e912da94bf035566612f492d8d6601029ccd3bd218e64d6"
     end
     on_intel do
-      url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.4/cagoule_0.1.4_darwin_amd64.tar.gz"
-      sha256 "92fc30341e3944f1a13306fc5274db46f89a73bfd47ce6ae57c0816c09ac4931"
+      url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.5/cagoule_0.1.5_darwin_amd64.tar.gz"
+      sha256 "7bcd68cffddc9b208b7414ecfff7b15af9c4c4415eb345f388042f7c9af1bd68"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.4/cagoule_0.1.4_linux_arm64.tar.gz"
-      sha256 "fe6c82c1ba09e69d966545e173f2fa34152e4f59d7d57711402459562e4ae5f2"
+      url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.5/cagoule_0.1.5_linux_arm64.tar.gz"
+      sha256 "3b3d251c9594cd034b6cf46b3e740c10baa477067e29769af4d1372342fb1c41"
     end
     on_intel do
-      url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.4/cagoule_0.1.4_linux_amd64.tar.gz"
-      sha256 "d7cbdffb1b9ab45261dd2c02c66cadabac3d9cd377fe78bef6139cf6612b885a"
+      url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.5/cagoule_0.1.5_linux_amd64.tar.gz"
+      sha256 "967c05bc37d3203a4a05188143e86a2d97ff2872090ac55e121d2d3140aee50a"
     end
   end
 
