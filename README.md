@@ -1,6 +1,6 @@
 # Cagoule Homebrew tap
 
-`cagoule` deploys and runs open-weight models on Cagoule from the command line. Current version: 0.1.14.
+`cagoule` deploys and runs open-weight models on Cagoule from the command line. Current version: 0.1.15.
 
 ```sh
 brew install anorak-games/cagoule/cagoule
@@ -8,7 +8,7 @@ cagoule login
 cagoule deploy path/to/app
 ```
 
-Upgrade with `brew upgrade cagoule`. The same formula serves macOS and Linux (Homebrew on Linux). Windows users download `cagoule_0.1.14_windows_<arch>.zip` from the [releases](https://github.com/anorak-games/homebrew-cagoule/releases) and check it against `SHA256SUMS`.
+Upgrade with `brew upgrade cagoule`. The same formula serves macOS and Linux (Homebrew on Linux). Windows users download `cagoule_0.1.15_windows_<arch>.zip` from the [releases](https://github.com/anorak-games/homebrew-cagoule/releases) and check it against `SHA256SUMS`.
 
 Sign-in uses your `@anorak.games` Google account. The [Cagoule agent plugin](https://github.com/anorak-games/cagoule-agent-plugin) teaches coding agents to use this installed CLI. Check for a newer release with `cagoule version --check`.
 
