@@ -7,22 +7,22 @@ class Cagoule < Formula
   on_macos do
     on_arm do
       url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.36/cagoule_0.1.36_darwin_arm64.tar.gz"
-      sha256 "552e08f60a77078d814d38ca3dfd7635014c77936f46f2e72a274297af076a8a"
+      sha256 "47ccd49d4136278dde5109cc058a8c4ceeb6e988eb09957c132160179f973e65"
     end
     on_intel do
       url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.36/cagoule_0.1.36_darwin_amd64.tar.gz"
-      sha256 "8e23f850bfa33f7035ab908e4ad2932643f5b6e5359012c8bdc79cadd521ac99"
+      sha256 "5f4d225905fd752328f61b7adc6372f2c23728b041ba2f7034b10b656c435c12"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.36/cagoule_0.1.36_linux_arm64.tar.gz"
-      sha256 "a413bba3d0ef855613b06361df1196e933ccdaa559960d43f6fbe70747e34f72"
+      sha256 "822de99e3d7d90bc7b34922c51b5ac726685aaf0fa4d55690a068fa29df9f626"
     end
     on_intel do
       url "https://github.com/anorak-games/homebrew-cagoule/releases/download/v0.1.36/cagoule_0.1.36_linux_amd64.tar.gz"
-      sha256 "4aac86b1dd370c1d29c3fa2e42ffba44738a69cdb0eeab9a7186e8b5b42a7746"
+      sha256 "fd5c4c79aab7f5d16d0c4368e2d750a9681bc30c7f7b7af603681a38ebc80c57"
     end
   end
 
